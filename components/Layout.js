@@ -18,7 +18,6 @@ export default function Layout({ children, story }) {
       <div className={styles.container}>
         <main>{children}</main>
       </div>
-      <Footer />
     </>
   );
 }
