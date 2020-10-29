@@ -5,7 +5,7 @@ import Header from '@components/Header';
 export default function CustomSuccess() {
   return (
     <Layout>
-      <Header title="A lonely, code-filled night: Your Turn!" />
+      <Header title="Choose your own adventure... if you dare" />
       <br />
       <section>
         Thanks for your submission! Once propagated you'll see your character in

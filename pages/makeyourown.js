@@ -6,7 +6,7 @@ import CharacterForm from '@components/CharacterForm';
 export default function Custom() {
   return (
     <Layout>
-      <Header title="A lonely, code-filled night: Your Turn!" />
+      <Header title="Choose your own adventure... if you dare" />
       <br />
       <section>
         Want to add your own personality to the story? Fill out this form to be

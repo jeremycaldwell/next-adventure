@@ -39,9 +39,7 @@ export const storyMachine = (character) => {
     states: {
       [introVals.start]: {
         meta: {
-          story: `Once upon a time there was a developer ${
-            name ? `named ${name}` : ''
-          } who was working very late at night. Very late at night... on Halloween.`,
+          story: `Once upon a time there was a developer named Tyler who was working very late at night. Very late at night... on Halloween.`,
         },
         on: {
           [introVals.kitchen]: introVals.kitchen,
@@ -49,11 +47,7 @@ export const storyMachine = (character) => {
       },
       [introVals.kitchen]: {
         meta: {
-          story: `${
-            name ? name : 'The developer'
-          } decided to take a break to get a snack. ${generatePersonal(
-            pronouns
-          )} went to the kitchen, and couldn't decide what to eat.`,
+          story: `The developer decided to take a break to get a snack. They went to the kitchen, and couldn't decide what to eat.`,
         },
         on: {
           [firstLevel.apple]: firstLevel.apple,

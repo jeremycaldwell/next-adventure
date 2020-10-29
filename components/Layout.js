@@ -7,7 +7,7 @@ export default function Layout({ children, story }) {
   return (
     <>
       <Head>
-        <title>Next.js Adventure!</title>
+        <title>Choose Your Own Adventure</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {story && (

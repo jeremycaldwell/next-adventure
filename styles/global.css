@@ -14,7 +14,7 @@ body {
 
   background: linear-gradient(to bottom, black, black 50%, #222 50%, #222);
   background-size: 100% 4px;
-  animation: gradientMove 200ms ease infinite;
+  animation: gradientMove 2500ms ease infinite;
 }
 
 a,
@@ -38,7 +38,7 @@ button {
     background-size: 100% 4px;
   }
   50% {
-    background-size: 100% 2px;
+    background-size: 100% 6px;
   }
   100% {
     background-size: 100% 4px;
