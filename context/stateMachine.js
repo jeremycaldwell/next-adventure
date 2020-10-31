@@ -47,7 +47,7 @@ export const storyMachine = (character) => {
       },
       [introVals.kitchen]: {
         meta: {
-          story: `The developer decided to take a break to get a snack. They went to the kitchen, and couldn't decide what to eat.`,
+          story: `The developer decided to take a break to get a snack. He went to the kitchen, and couldn't decide what to eat.`,
         },
         on: {
           [firstLevel.apple]: firstLevel.apple,
